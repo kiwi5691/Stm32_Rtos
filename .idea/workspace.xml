@@ -11,7 +11,24 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="384db794-b0af-4d44-824b-548f48435d8f" name="Default Changelist" comment="" />
+    <list default="true" id="384db794-b0af-4d44-824b-548f48435d8f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/FreeRTOSConfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/FreeRTOSConfig.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f1xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f1xx_it.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/fsmc.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/fsmc.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/stm32f1xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f1xx_it.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/tim.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/tim.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/usart.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/usart.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Drivers/BSP/SDRAM/sdram.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/BSP/SDRAM/sdram.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Drivers/BSP/SDRAM/sdram.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/BSP/SDRAM/sdram.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Drivers/SYSTEM/delay/delay.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/SYSTEM/delay/delay.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Drivers/SYSTEM/sys/sys.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/SYSTEM/sys/sys.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Drivers/SYSTEM/sys/sys.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/SYSTEM/sys/sys.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Drivers/SYSTEM/usart/usart.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/SYSTEM/usart/usart.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RtosTest.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/RtosTest.ioc" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +38,19 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="2MzxbyLAVF6NABE9TWR0jVUKnsN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,15 +63,15 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Core/Src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Middlewares" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Middlewares" />
       <recent name="$PROJECT_DIR$/Core/Src" />
       <recent name="$PROJECT_DIR$/Drivers/BSP" />
-      <recent name="$PROJECT_DIR$/Middlewares" />
       <recent name="$PROJECT_DIR$/Drivers" />
     </key>
   </component>
@@ -79,6 +108,7 @@
       <workItem from="1678795600302" duration="680000" />
       <workItem from="1678931335411" duration="355000" />
       <workItem from="1678933386219" duration="833000" />
+      <workItem from="1678936809226" duration="6469000" />
     </task>
     <servers />
   </component>
