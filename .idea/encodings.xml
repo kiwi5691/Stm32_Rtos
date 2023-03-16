@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Drivers/BSP/LED/led.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Drivers/SYSTEM/delay/delay.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Drivers/SYSTEM/delay/delay.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Drivers/SYSTEM/sys/sys.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Drivers/SYSTEM/usart/usart.h" charset="GBK" />
+  </component>
+</project>
