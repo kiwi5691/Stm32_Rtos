@@ -13,21 +13,9 @@
   <component name="ChangeListManager">
     <list default="true" id="384db794-b0af-4d44-824b-548f48435d8f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/FreeRTOSConfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/FreeRTOSConfig.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f1xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f1xx_it.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/fsmc.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/fsmc.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/stm32f1xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f1xx_it.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/tim.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/tim.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/usart.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/usart.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/BSP/SDRAM/sdram.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/BSP/SDRAM/sdram.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/BSP/SDRAM/sdram.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/BSP/SDRAM/sdram.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/SYSTEM/delay/delay.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/SYSTEM/delay/delay.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/SYSTEM/sys/sys.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/SYSTEM/sys/sys.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/SYSTEM/sys/sys.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/SYSTEM/sys/sys.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/SYSTEM/usart/usart.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/SYSTEM/usart/usart.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RtosTest.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/RtosTest.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/FreeRTOSConfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/FreeRTOSConfig.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/freertos_demo.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/freertos_demo.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/freertos_demo.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/freertos_demo.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +54,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Middlewares" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -74,14 +63,12 @@
       <recent name="$PROJECT_DIR$/Drivers/BSP" />
       <recent name="$PROJECT_DIR$/Drivers" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Core/Inc" />
+    </key>
   </component>
   <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD RtosTest">
     <configuration name="RtosTest.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RtosTest" TARGET_NAME="RtosTest.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RtosTest" RUN_TARGET_NAME="RtosTest.elf">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -108,11 +95,24 @@
       <workItem from="1678795600302" duration="680000" />
       <workItem from="1678931335411" duration="355000" />
       <workItem from="1678933386219" duration="833000" />
-      <workItem from="1678936809226" duration="6469000" />
+      <workItem from="1678936809226" duration="12238000" />
+      <workItem from="1679014993697" duration="4807000" />
     </task>
+    <task id="LOCAL-00001" summary="fix">
+      <created>1678952126555</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678952126555</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>

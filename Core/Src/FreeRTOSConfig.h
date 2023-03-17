@@ -9,7 +9,7 @@
 extern uint32_t SystemCoreClock;
 
 /* 基础配置项 */
-#define configUSE_PREEMPTION                            1                       /* 1: 抢占式调度器, 0: 协程式调度器, 无默认需定义 */
+#define configUSE_PREEMPTION                            1                       /* 此宏用于设置系统的调度方式 1: 抢占式调度器, 0: 协程式调度器, 无默认需定义 */
 #define configUSE_PORT_OPTIMISED_TASK_SELECTION         1                       /* 1: 使用硬件计算下一个要运行的任务, 0: 使用软件算法计算下一个要运行的任务, 默认: 0 */
 #define configUSE_TICKLESS_IDLE                         0                       /* 1: 使能tickless低功耗模式, 默认: 0 */
 #define configCPU_CLOCK_HZ                              SystemCoreClock         /* 定义CPU主频, 单位: Hz, 无默认需定义 */
